@@ -19,9 +19,24 @@ body{
 
 .xmas-tree {
     position: relative;
-    width: 500px;
-    height: 500px;
+    width: 80%; 
+    max-width: 500px; 
+    height: 500px; 
     z-index: -2;
+}
+
+@media (max-width: 768px) {
+    .xmas-tree {
+        width: 90%;
+    }
+
+    .xmas-tree h1 {
+        font-size: 60px; 
+    }
+
+    .xmas-tree p {
+        font-size: 30px;
+    }
 }
 
 .star{
